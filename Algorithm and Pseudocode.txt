@@ -1,0 +1,138 @@
+
+
+Adding of two numbers:
+Step 1: Start
+Step 2: Declare variable num1, num2 and sum.
+Step 3: Enter the values of num1 and num2.
+Step 4: Add num1 and num2 and assign the result to a variable sum.
+        sum = mun1  = num2
+Step 5: Display sum.
+Step 6: Stop
+
+
+Fibonacci series:
+Step 1: Start
+Step 2: Declare variable a,b,c num, i;
+Step 3: Initialize the varible a=0, b=1 and i=2
+Step 4: Enter the value of num
+Step 5: Print a and b
+Step 6: Repeat until i<=num:
+     6.1: c=a+b
+     6.2: print c
+     6.3: a=b, b=c
+     6.4: i=i+1
+Step 7: Stop
+
+
+Prime number:
+Step 1: Start
+Step 2: Initialize variable num, flag=1, j=2
+Step 3: Read num
+Step 4: If num<=1
+        Display "num is not prime number"
+        Goto step 7
+Step 5: Repeat the steps until j<[(n/2)+1]
+     5.1: If remainder of number divide j equals to 0
+          Set flag=0
+          Goto step 6
+     5.2: j=j+1
+Step 6: If flag==0
+        Display num+ "is not prime number"
+        Else
+        Display num+ "is prime number"
+Step 7: Stop
+
+
+Factorial number:
+Step 1: Start
+Step 2: Declare variable num, fact, i
+Step 3: Read num
+Step 4: Initialize variable fact=1 and i=1
+Step 5: Repeat until i<=num
+     5.1: fact=fact*i
+     5.2: i=i+1
+Step 6: Print fact
+Step 7: Stop
+
+Pseudocode: Finding the greatest number between two numbers
+BEGIN
+Read a and b
+IF a is less than b
+THEN BIG = b
+SMALL = a
+ELSE
+BIG = a
+Small = b
+WRITE or DISPLAY BIG abd SMALL
+
+Pseudocode: Finding Factorial of number
+BEGIN
+Read number
+Fact=1
+i=1
+WHILE i<=number
+      Fact=Fact*i
+      i=i+1
+ENDWHILE
+WRITE Fact
+
+
+Pseudocode: Prime Number
+BEGIN
+READ number
+FOR loop=2 to number-1
+    Check if number is divisible by loop
+  IF divisible
+    RETURN "NOT PRIME"
+  END IF
+END FOR
+RETURN "PRIME"
+
+
+Pseudocode: Fibonacci Series
+BEGIN
+READ Number
+DISPLAY 0, 1
+SET a=0, b=1
+DISPLAY a, b
+WHILE the number of terms is less then number
+    c=a+b
+    DISPLAY  c
+    SET a=b,b=c
+END
+
+
+Pseudocode: Armstrong Number:
+BEGIN
+READ number
+CALCULATE number of Digits n_digits
+Make a copy of number
+result = 0
+CHECK DIGIT BY DIGIT:
+      WHILE number!=0
+            GET CURRENT DIGIT: digit = number % 10
+            UPDATE RESULT: result = result + digit^(n_digit)
+            TRIM the last DIGIT: number=number/10
+      ENDWHILE
+CHECK for Armstrong number:
+    IF result== COPY OF number
+        PRINT "ARMSTRONG NUMBER"
+    ELSE
+        PRINT "NOT AN ARMSTRONG NUMBER"
+     
+
+Pseudocode: Biggest of three Integer
+BEGIN 
+NUMBER num1,num2,num3 
+INPUT num1
+INPUT num2
+INPUT num3
+ 
+IF num1>num2 AND num1>num3  THEN
+     OUTPUT num1+ "is higher"
+ELSE IF num2 > num3 THEN
+     OUTPUT num2 + "is higher"
+ELSE
+     OUTPUT num3+ "is higher"
+ENDIF
+END
